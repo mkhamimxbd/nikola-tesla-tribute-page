@@ -1,0 +1,148 @@
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EEEEEE;
+}
+
+#main {
+  margin: 20px 20px 40px 20px;
+  background-color: #393E46;
+  border-radius: 12px;
+  color: #EEEEEE;
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 40px 0 20px 0;
+}
+
+#sub-title {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+
+#img-div-container {
+  background-color: #EEEEEE;
+  border-radius: 4px;
+  margin: 0 18px;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+  margin: 34px 0 0 0;
+  border-radius: 12px;
+}
+
+#img-caption {
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0 10px 0;
+  color: #393E46;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tribute-title {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+#achievements {
+  max-width: 400px;
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+
+
+.achievement-list {
+  list-style: none;
+  padding: 0 0 50px 0;
+  font-size: 15px;
+}
+
+.achievement-div {
+  margin: 0 10px;
+}
+
+.year {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.achievement {
+  word-spacing: 4px;
+  line-height: 1.7;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#quote {
+  font-style: italic;
+  font-size: 14px;
+  padding: 20px 0 15px 0;
+}
+
+#quote-aurthor {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#read-more {
+  text-align: center;
+  padding: 70px 0 30px 0;
+  font-size: 13px;
+}
+
+#tribute-link {
+  color: rgb(144, 144, 255);
+}
+
+@media (max-width: 600px) {
+  #main {
+    margin: 20px 12px 40px 12px;
+  }
+
+  .achievement-div {
+    margin: 0 20px;
+  }
+
+  #sub-title {
+    margin: 0 70px;
+  }
+
+  .year {
+    font-size: 21px;
+  }
+
+  .achievement-list {
+    font-size: 20px;
+  }
+}
